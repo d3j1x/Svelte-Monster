@@ -18,7 +18,8 @@
     
 
 </script>
-
+<h4 style="text-align: center;color:blue">Reactivity in Svelte</h4>
+<hr />
 
 <button on:click={increment}>
     Click Me +
