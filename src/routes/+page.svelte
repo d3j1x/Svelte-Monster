@@ -1,11 +1,12 @@
 <script>
+    import Monster from '$lib/assets/mnstr.png';
     let content = 'Welcome to SvelteKit';
-    let imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/archive/5/53/20221203181232%21Google_%22G%22_Logo.svg';
 
 </script>
+<main>
 
-<h1>{content}</h1>
-<img src={imageUrl} alt="logo">
+    <h1>{content}</h1>
+<img style="max-width: 300px;" src={Monster} alt="logo">
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <a href="/001">001</a>
@@ -22,4 +23,25 @@
 <a href="/012">012</a>
 <a href="/013">013</a>
 <a href="/014">014</a>
-<a href="/015">015</a>
+<a href="/015"><abbr title="if Block">015</abbr></a>
+<a href="/016">016</a>
+
+</main>
+
+<style>
+    main {
+
+        margin:auto;
+        text-align: center;
+    }
+
+a:link {
+  color: blue;
+  text-decoration: none;
+  cursor: mouse;
+}
+a:visited {
+    color: black;
+}
+
+</style>
