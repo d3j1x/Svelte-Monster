@@ -1,7 +1,7 @@
 <script>
 
-    import Input from '$lib/026/Input.svelte';
-    import Grandparent from '$lib/026/Grandparent.svelte';
+    import Input from '$lib/025/Input.svelte';
+    import Grandparent from '$lib/025/Grandparent.svelte';
 
     let value;
 </script>
