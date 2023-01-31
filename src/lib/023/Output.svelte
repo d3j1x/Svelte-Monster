@@ -1,14 +1,15 @@
 <script>
-    import {value, subscribe} from './data';
+    import {valueStore} from './data';
 
     import {onMount} from 'svelte'; 
 
-    let _value = value;
+    let _value;
 
     onMount(() => {
-        return subscribe(() => {
+        return valueStore.subscribe(value => {
             _value = value;
-        });
+        })
+        
     });
 
     
