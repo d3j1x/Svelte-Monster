@@ -17,6 +17,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"valtio": "^1.9.0"
+		"@xstate/svelte": "^2.0.1",
+		"valtio": "^1.9.0",
+		"xstate": "^4.35.4"
 	}
 }
