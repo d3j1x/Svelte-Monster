@@ -9,7 +9,7 @@
         }
         document.body.addEventListener("mousemove",move);
         return () => {
-            document.body.addEventListener("mousemove", move);
+            document.body.removeEventListener("mousemove", move);
         }
     });
     $: console.log(x, y);
