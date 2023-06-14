@@ -24,6 +24,3 @@
 			color: blue;
 		}
 	</style>
-	
-		
-		

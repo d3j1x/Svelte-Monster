@@ -9,4 +9,5 @@
 Foo: {foo}
 Bar: {bar}
 
+
 <input bind:value={bar} />
