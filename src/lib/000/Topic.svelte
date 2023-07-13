@@ -1,14 +1,3 @@
-<script>
-    import Monster from '$lib/assets/mnstr.png';
-    let content = 'Welcome to SvelteKit';
-
-</script>
-<main>
-
-    <h1>{content}</h1>
-<img style="max-width: 300px;" src={Monster} alt="logo">
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
 <a href="/001">001</a>
 <a href="/002">002</a>
 <a href="/003">003</a>
@@ -109,26 +98,3 @@
 <a href="/097">097</a>
 <a href="/098">098</a>
 <a href="/099">099</a>
-
-</main>
-
-
-
-
-<style>
-    main {
-
-        margin:auto;
-        text-align: center;
-    }
-
-a:link {
-  color: blue;
-  text-decoration: none;
-  cursor: mouse;
-}
-a:visited {
-    color: black;
-}
-
-</style>

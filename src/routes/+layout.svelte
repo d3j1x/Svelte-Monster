@@ -1,3 +1,7 @@
+<script>
+import Topic from '$lib/000/Topic.svelte';
+</script>
+
 <header>
     HEADER
 </header>
@@ -16,7 +20,10 @@
 <hr/>
 
 <footer>
-    FOOTER
+    
+    <h2>FOOTER</h2>
+    <Topic />
+
 </footer>
 
 
