@@ -1,3 +1,8 @@
+<script>
+import Topic from '$lib/000/Topic.svelte';
+let x = false;
+</script>
+
 <header>
     HEADER
 </header>
@@ -16,7 +21,13 @@
 <hr/>
 
 <footer>
-    FOOTER
+    
+    <h2>FOOTER</h2>
+    <button style="display: block; background: blue; color: white;" on:click={() => x=!x}>Show more/less</button>
+    {#if x}
+    <Topic />
+    {/if}
+
 </footer>
 
 
